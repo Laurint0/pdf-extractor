@@ -39,7 +39,7 @@ def save_questions_to_file(exam_num, questions):
             file.write("\n\n")
 
 # Percorso del file PDF
-pdf_path = "C:/Users/lauri/OneDrive/Desktop/SecurityPLUS/CompTIA-Sec-Musterfragen MD.pdf"
+pdf_path = "C:/Users/lauri/OneDrive/Desktop/SecurityPLUS/CompTIA-Examtrain.pdf"
 
 # Estrazione del testo e delle immagini dal PDF
 data = extract_text_and_images_from_pdf(pdf_path)
